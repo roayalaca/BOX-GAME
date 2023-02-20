@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)),url(./videogame.jpg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 95px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.numbers h1 {
+    background-color: #BEF0CB ;
+    font-size: 50px;
+    padding: 20px;
+}
+
+p {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    background-color: #F94A29;
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+}
